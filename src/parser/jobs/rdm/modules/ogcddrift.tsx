@@ -18,8 +18,8 @@ import DISPLAY_ORDER from './DISPLAY_ORDER'
 const DRIFT_BUFFER = 1250
 
 const DRIFT_ABILITIES: ActionKey[] = [
-	'HIGH_JUMP',
-	'GEIRSKOGUL',
+	'FLECHE',
+	'CONTRE_SIXTE',
 ]
 
 class DriftWindow {
@@ -143,12 +143,12 @@ export default class Drift extends Analyser {
 					<Table.Row>
 						<Table.Cell style={{verticalAlign: 'top'}}>
 							{this.createDriftTable(this.driftedWindows.filter((ability) => {
-								return ability.actionId === this.data.actions.HIGH_JUMP.id
+								return ability.actionId === this.data.actions.FLECHE.id
 							}))}
 						</Table.Cell>
 						<Table.Cell style={{verticalAlign: 'top'}}>
 							{this.createDriftTable(this.driftedWindows.filter((ability) => {
-								return ability.actionId === this.data.actions.GEIRSKOGUL.id
+								return ability.actionId === this.data.actions.CONTRE_SIXTE.id
 							}))}
 						</Table.Cell>
 					</Table.Row>
