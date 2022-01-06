@@ -6,4 +6,5 @@ export const DISPLAY_ORDER = {
 	MELEE_COMBO: 5,
 	EMBOLDEN: 6,
 	TINCTURES: 7,
+	OGCDDRIFT: 8,
 }
