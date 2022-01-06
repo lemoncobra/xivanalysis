@@ -22,6 +22,7 @@ export default [
 	CastTime,
 	DualCast,
 	GeneralCDDowntime,
+	ogcddrift,
 	Interrupts,
 	Procs,
 	Combos,
