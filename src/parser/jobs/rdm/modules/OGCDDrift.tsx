@@ -34,7 +34,7 @@ class DriftWindow {
 	}
 }
 
-export default class Drift extends Analyser {
+export default class OGCDDrift extends Analyser {
 	static override debug = false
 	static override handle = 'drift'
 	static override title = t('drg.drift.title')`Ability Drift`
