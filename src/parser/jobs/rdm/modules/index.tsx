@@ -11,6 +11,7 @@ import {ManaStackGauge} from './ManaStackGauge'
 import {MeleeCombos} from './MeleeCombos'
 import {Procs} from './Procs'
 import {Weaving} from './Weaving'
+import {OGCDDrift} from './OGCDDrift'
 
 export {DualStatistic} from 'parser/jobs/rdm/statistics/DualStatistic'
 
@@ -22,7 +23,7 @@ export default [
 	CastTime,
 	DualCast,
 	GeneralCDDowntime,
-	ogcddrift,
+	OGCDDrift,
 	Interrupts,
 	Procs,
 	Combos,
