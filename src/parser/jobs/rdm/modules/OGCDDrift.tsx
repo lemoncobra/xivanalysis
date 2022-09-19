@@ -20,6 +20,7 @@ const DRIFT_BUFFER = 1250
 const DRIFT_ABILITIES: ActionKey[] = [
 	'FLECHE',
 	'CONTRE_SIXTE',
+	'MANAFICATION',
 ]
 
 class DriftWindow {
@@ -148,7 +149,7 @@ export default class OGCDDrift extends Analyser {
 						</Table.Cell>
 						<Table.Cell style={{verticalAlign: 'top'}}>
 							{this.createDriftTable(this.driftedWindows.filter((ability) => {
-								return ability.actionId === this.data.actions.CONTRE_SIXTE.id
+								return ability.actionId === this.data.actions.MANAFICATION.id
 							}))}
 						</Table.Cell>
 					</Table.Row>
