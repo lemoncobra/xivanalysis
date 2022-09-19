@@ -19,7 +19,6 @@ const DRIFT_BUFFER = 1250
 
 const DRIFT_ABILITIES: ActionKey[] = [
 	'FLECHE',
-	'CONTRE_SIXTE',
 	'MANAFICATION',
 ]
 
